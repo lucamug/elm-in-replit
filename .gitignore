@@ -1,6 +1,3 @@
-# Build folders
-/dist/
-
 # Development generated files
 /docs/js/elm.js
 
@@ -17,12 +14,6 @@ node_modules/
 
 # Atom Elm plugin temporary file
 Elmjutsu*.elm
-
-# This file can be generate by mistake if running "elm make"
-/index.html
-
-# index.html is generated from /docs/index.template.html
-/docs/index.html
 
 # We use Yarn, for this repo
 package.lock

@@ -1,6 +1,0 @@
-#!/bin/bash
-set -eu
-
-source cmd/config
-printf "Linting is unnecessary for Elm files.\n"
-printf "Use ${PRIMARY}review${STOP} or ${PRIMARY}fix${STOP} instead.\n\n"
