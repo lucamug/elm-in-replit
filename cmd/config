@@ -19,12 +19,19 @@ FOLDER_NODE_MODULES="${FOLDER_ROOT}node_modules"
 
 # Tools
 
-ELM=$FOLDER_NODE_MODULES/elm/bin/elm
+# ELM=$FOLDER_NODE_MODULES/elm/bin/elm
+# ELM_GO=$FOLDER_NODE_MODULES/elm-go/bin/elm-go.js
+# ELM_JSON=$FOLDER_NODE_MODULES/elm-json/bin/elm-json
+# ELM_REVIEW=$FOLDER_NODE_MODULES/elm-review/bin/elm-review
+# ELM_FORMAT=$FOLDER_NODE_MODULES/elm-format/bin/elm-format
+# ELM_TEST=$FOLDER_NODE_MODULES/elm-test/bin/elm-test
+
+ELM=elm
 ELM_GO=$FOLDER_NODE_MODULES/elm-go/bin/elm-go.js
-ELM_JSON=$FOLDER_NODE_MODULES/elm-json/bin/elm-json
-ELM_REVIEW=$FOLDER_NODE_MODULES/elm-review/bin/elm-review
-ELM_FORMAT=$FOLDER_NODE_MODULES/elm-format/bin/elm-format
-ELM_TEST=$FOLDER_NODE_MODULES/elm-test/bin/elm-test
+ELM_JSON=elm-json
+ELM_REVIEW=elm-review
+ELM_FORMAT=elm-format
+ELM_TEST=elm-test
 
 # Colors
 # https://dev.to/ifenna__/adding-colors-to-bash-scripts-48g4

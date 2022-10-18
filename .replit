@@ -9,7 +9,7 @@ run = "cmd/serve"
 entrypoint = "src/Main.elm"
 
 # Hidden files
-hidden = ["elm-stuff", "index.html", "yarn.lock", "elm-analyse.json", ".gitignore", "package.lock"]
+hidden = ["tests", "package.json", "elm-stuff", "index.html", "yarn.lock", "elm-analyse.json", ".gitignore", "package.lock", "cmd", "review"]
 
 
 # Setting environment variables

@@ -8,6 +8,6 @@ singleCommand "${COMMAND}" "${COMMENT}"
 
 printf "\n\n"
 
-COMMAND="cd review; ../${ELM_JSON} upgrade"
+COMMAND="cd review; ${ELM_JSON} upgrade"
 COMMENT="Upgrading the Elm dependencies in the review folder"
 singleCommand "${COMMAND}" "${COMMENT}"

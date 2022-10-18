@@ -1,5 +1,6 @@
 { pkgs }: {
     deps = [
+        pkgs.elmPackages.elm-format
         pkgs.elmPackages.elm
         pkgs.elmPackages.elm-json
         pkgs.elmPackages.elm-format
