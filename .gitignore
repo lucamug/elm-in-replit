@@ -17,3 +17,6 @@ Elmjutsu*.elm
 
 # We use Yarn, for this repo
 package.lock
+
+# Ignore index.html in the root folder
+/index.html

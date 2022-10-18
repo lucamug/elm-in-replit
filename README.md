@@ -1,3 +1,1 @@
 # Welcome! 👋
-
-## **😃 HAPPY CODING! 😃**
